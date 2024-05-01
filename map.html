@@ -1,0 +1,363 @@
+<section id="infrastructure" class="section infrastructure">
+	<div class="container container-w100">
+		<div class="infrastructure_maps">
+			<div class="infrastructure_tabs">
+				<nav class="tabs infrastructure-tabs">
+					<ul>
+						<li><button class="current" data-info="location_map">расположение</button></li>
+						<li><button data-info="infrastructure_map">инфраструктура</button></li>
+					</ul>
+				</nav>
+			</div>
+			<div id="location_map" class="infrastructure_location active">
+				<div class="infrastructure_location-map">
+					<img class="lazy_img location-map" src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/location_map.webp?v=1.1" data-src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/location_map.webp?v=1.1" alt="">
+					<div class="infrastructure_location-nav">
+						<img class="lazy_img location-nav" src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/location_nav.svg?v=1.2" data-src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/location_nav.svg?v=1.2" alt="">
+					</div>
+				</div>
+				<div class="infrastructure_location-icons">
+					<div class="transport icon_nav icon_wide" style="top:17.2vw;left:12.5vw;" data-popup="infrastructure_popup-25">
+						<span class="icon_nav-time">
+							<span class="time">20</span>
+							<span class="val">мин</span>
+						</span>	
+						<span class="icon_nav-info">На авто до международного аэропорта «Шереметьево»</span>	
+					</div>
+					<span id="text-Patriarshie_prudy" class="culture icon_nav" data-title="Патриаршие Пруды"
+						data-popup="infrastructure_popup-1" style="top: 39.5vw;left: 61vw;">
+						<img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-culture_v2.svg" alt="">
+					</span>
+					<span id="text-Kreml" class="culture icon_nav" data-title="Кремль" data-popup="infrastructure_popup-2" style="top: 47vw;left: 71.6vw;">
+						<img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-culture_v2.svg" alt="">
+					</span>
+					<span id="text-Park_Hodynskoe_pole" class="park icon_nav" data-title="Ходынское поле"
+						data-popup="infrastructure_popup-3" style="top: 25.7vw;left: 30.8vw;">
+						<img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-park_v2.svg" alt="">
+					</span>
+					<span id="text-Galereya_Aeroport" class="shop icon_nav" data-title="Галерея Аэропорт"
+						data-popup="infrastructure_popup-4" style="top: 9vw;left: 35vw;">
+						<img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-shop_v2.svg" alt="">
+					</span>
+					<span id="text-Metro_Delovoy Center" class="sub icon_nav no_popup" data-title="Метро Деловой Центр"
+						data-popup="infrastructure_popup-5" style="top: 48.9vw;left: 38.5vw;">
+						<img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-sub_v2.svg" alt="">
+					</span>
+					<span id="text-Metro_CSKA" class="sub icon_nav no_popup" data-title="Метро ЦСКА" data-popup="infrastructure_popup-6" style="top: 27.2vw;left: 34.8vw;">
+						<img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-sub_v2.svg" alt="">
+					</span>
+					<span id="text-Central`ny_Moskovskiy_ippodrom" class="culture icon_nav" data-title="Московский ипподром"
+						data-popup="infrastructure_popup-7" style="top: 29vw;left: 49vw;">
+						<img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-culture_v2.svg" alt="">
+					</span>
+					<span id="text-Metro_Dinamo" class="sub icon_nav no_popup" data-title="Метро Динамо" data-popup="infrastructure_popup-8" style="top: 19vw;left: 48.4vw;">
+						<img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-sub_v2.svg" alt="">
+						<span class="rounded_overlay"></span>
+					</span>
+					<span id="text-Metro_Belorusskaya" class="sub icon_nav no_popup" data-title="Метро Белорусская"
+						data-popup="infrastructure_popup-9" style="top: 32.7vw;left: 56.2vw;">
+						<img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-sub_v2.svg" alt="">
+					</span>
+					<span id="text-Metro_Teatralnayya" class="sub icon_nav no_popup" data-title="Метро Театральная"
+						data-popup="infrastructure_popup-10" style="top: 43vw;left: 73.4vw;">
+						<img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-sub_v2.svg" alt="">
+					</span>
+					<span id="text-Metro_Petrovsky_park" class="sub icon_nav no_popup" data-title="Метро Петровский Парк"
+						data-popup="infrastructure_popup-11" style="top: 14vw;left: 41.4vw;">
+						<img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-sub_v2.svg" alt="">
+					</span>
+					<span id="text-Metro_Sokol" class="sub icon_nav no_popup" data-title="Метро Сокол" data-popup="infrastructure_popup-12" style="top: 8vw;left: 31vw;">
+						<img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-sub_v2.svg" alt="">
+					</span>
+					<span id="text-CUM" class="shop icon_nav" data-title="ЦУМ" data-popup="infrastructure_popup-13" style="top: 38.6vw;left: 72vw;">
+						<img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-shop_v2.svg" alt="">
+					</span>
+					<span id="text-TC_Metropolis" class="shop icon_nav" data-title="ТЦ МЕТРОПОЛИС"
+						data-popup="infrastructure_popup-14" style="top: 0.7vw;left: 25.2vw;">
+						<img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-shop_v2.svg" alt="">
+					</span>
+					<span id="text-GUM" class="shop icon_nav" data-title="ГУМ" data-popup="infrastructure_popup-15" style="top: 46vw;left: 76vw;">
+						<img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-shop_v2.svg" alt="">
+					</span>
+					<span id="text-TC_Aviapark" class="shop icon_nav" data-title="ТЦ АВИАПАРК" data-popup="infrastructure_popup-16" style="top: 21.7vw;left: 36.2vw;">
+						<img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-shop_v2.svg" alt="">
+					</span>
+					<span id="text-Chapaevsky_Park" class="park icon_nav" data-title="Чапаевский Парк"
+						data-popup="infrastructure_popup-17" style="top: 14vw;left: 32.4vw;">
+						<img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-park_v2.svg" alt="">
+					</span>
+					<span id="text-Timiryazevsky_Park" class="park icon_nav" data-title="Тимирязевский Парк"
+						data-popup="infrastructure_popup-18" style="top: 4.2vw;left: 42.4vw;">
+						<img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-park_v2.svg" alt="">
+					</span>
+					<span id="text-Petrovsky_Park" class="park icon_nav no_popup" data-title="Петровский Парк"
+						data-popup="infrastructure_popup-19" style="top: 16.5vw;left: 44.8vw;">
+						<img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-park_v2.svg" alt="">
+					</span>
+					<span id="text-Pokrovskoe_Streshnevo" class="park icon_nav" data-title="Парк Покровское-Стрешнево"
+						data-popup="infrastructure_popup-20" style="top: .8vw;left: 13.6vw;">
+						<img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-park_v2.svg" alt="">
+					</span>
+					<span id="text-Moskva_Citi" class="business icon_nav" data-title="Москва-СИТИ"
+						data-popup="infrastructure_popup-21" style="top: 46.6vw;left: 41.6vw;">
+						<img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-busines_v2.svg" alt="">
+					</span>
+					<span id="text-Flacon" class="shop icon_nav" data-title="Flacon" data-popup="infrastructure_popup-22" style="top: 10.4vw;left: 56.7vw;">
+						<img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-shop_v2.svg" alt="">
+					</span>
+					<span id="text-Kidzania" class="shop icon_nav" data-title="Кидзания" data-popup="infrastructure_popup-23" style="top: 22vw;left: 32vw;">
+						<img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-shop_v2.svg" alt="">
+					</span>
+				</div>
+			</div>
+			<div id="infrastructure_map" class="infrastructure_location">
+				<div class="infrastructure_location-map">
+					<img class="lazy_img infrastructure-map" src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/infrastructure_map.webp?v=1.1" data-src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/infrastructure_map.webp?v=1.1" alt="">
+					<div class="infrastructure_location-nav">
+						<img class="lazy_img infrastructure-nav" src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/infrastructure_nav.svg?v=1.1" data-src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/infrastructure_nav.svg?v=1.1" alt="">
+					</div>
+				</div>
+				<div class="infrastructure_location-icons">
+					<span style="top: 38.9vw;left: 65.9vw;" id="text-CUM" class="shop icon_nav" data-title="ЦУМ" data-popup="infrastructure_popup-13">
+					<img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-shop_v2.svg" alt=""></span>
+					<span style="top: 42.4vw;left: 67.3vw;" id="text-GUM" class="shop icon_nav" data-title="ГУМ" data-popup="infrastructure_popup-15"><img
+							src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-shop_v2.svg" alt=""></span>
+					<span style="top: 6.6vw;left: 62.4vw;" id="text-VDNH" class="park icon_nav" data-title="ВДНХ" data-popup="infrastructure_popup-24"><img
+							src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-park_v2.svg" alt=""></span>
+					<span style="top: 9.5vw;left: 44.4vw;" id="text-TIMIRYAZEVSKY_PARK" class="park icon_nav" data-title="Тимирязевский парк"
+						data-popup="infrastructure_popup-18"><img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-park_v2.svg"
+							alt=""></span>
+					<span style="top: 22vw;left: 48vw" id="text-PETROVSKY_PARK" class="park icon_nav no_popup" data-title="Петровский парк"
+						data-popup="infrastructure_popup-19"><img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-park_v2.svg"
+							alt=""></span>
+					<span style="top: 25.9vw;left: 35vw" id="text-BEREZOVAYA_ROSHA" class="park icon_nav" data-title="Парк Березовая роща"
+						data-popup="infrastructure_popup-29"><img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-park_v2.svg"
+							alt=""></span>
+					<span style="top: 19.6vw;left: 34.6vw;" id="text-CHAPAEVSKY_PARK" class="park icon_nav" data-title="Чапаевский парк"
+						data-popup="infrastructure_popup-17"><img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-park_v2.svg"
+							alt=""></span>
+					<span style="top: 26.9vw;left: 39.8vw;" id="text-HODYYNSKOE_POLE" class="park icon_nav" data-title="Ходынское поле"
+						data-popup="infrastructure_popup-3"><img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-park_v2.svg"
+							alt=""></span>
+<!-- добавлены партиаршие -->
+					<span style="top: 38.5vw;left: 58.1vw;" id="text-HODYYNSKOE_POLE" class="park icon_nav" data-title="Патриаршие пруды"
+						data-popup="infrastructure_popup-3"><img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-park_v2.svg"
+							alt=""></span>
+
+					<span style="top: 1vw;left: 23.4vw;" id="text-PARK_POKROVSKOE_STRESHNEVO" class="park icon_nav" data-title="Парк Северного речного вокзала"
+						data-popup="infrastructure_popup-20"><img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-park_v2.svg"
+							alt=""></span>
+
+					<span style="top: 7.9vw;left: 22.3vw;" id="text-PARK_POKROVSKOE_STRESHNEVO" class="park icon_nav" data-title="Парк Покровское-Стрешнево"
+						data-popup="infrastructure_popup-20"><img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-park_v2.svg"
+							alt=""></span>
+
+					<span style="top: 16.7vw;left: 37.8vw;" id="text-GALEREYA_Aeroport" class="shop icon_nav" data-title="Галерея Аэропорт"
+						data-popup="infrastructure_popup-4"><img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-shop_v2.svg"
+							alt=""></span>
+					<span style="top: 24vw;left: 39.13vw;" id="text-TC_Aviapark" class="shop icon_nav" data-title="ТЦ Авиапарк"
+						data-popup="infrastructure_popup-16"><img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-shop_v2.svg"
+							alt=""></span>
+					<span style="top: 6.5vw;left: 30.3vw;" id="text-TC_Metropolos" class="shop icon_nav" data-title="ТЦ Метрополис"
+						data-popup="infrastructure_popup-14"><img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-shop_v2.svg"
+							alt=""></span>
+					<!-- <span style="top: 16.8vw;left: 58.4vw;" id="text-Flacon" class="shop icon_nav" data-title="Flacon" data-popup="infrastructure_popup-22"><img
+							src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-shop_v2.svg" alt=""></span> -->
+					<span style="top: 23.4vw;left: 36.2vw;" id="text-VEB_ARENA" class="sport icon_nav" data-title="ВЭБ Арена"
+						data-popup="infrastructure_popup-37"><img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-sport_v2.svg"
+							alt=""></span>
+					<span style="top: 27.6vw;left: 44.4vw;" id="text-MEGASPORT" class="sport icon_nav" data-title="Мегаспорт"
+						data-popup="infrastructure_popup-38"><img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-sport_v2.svg"
+							alt=""></span>
+					<span style="top: 22.2vw;left: 48.7vw;" id="text-VTB_ARENA" class="sport icon_nav" data-title="ВТБ Арена"
+						data-popup="infrastructure_popup-39"><img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-sport_v2.svg"
+							alt=""></span>
+
+					<span style="top: 29.6vw;left: 50vw;" id="text-VTB_ARENA" class="sport icon_nav" data-title="Ипподром"
+						data-popup="infrastructure_popup-39"><img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-sport_v2.svg"
+							alt=""></span>
+
+					<span style="top: 22.4vw;left: 46.2vw;" id="text-PETROVSKY_PUTEVOY_DVOREC" class="culture icon_nav" data-title="Петровский путевой дворец"
+						data-popup="infrastructure_popup-40"><img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-culture_v2.svg"
+							alt=""></span>
+					<span style="top: 28.8vw;left: 50.1vw;" id="text-AJURNYIY_DOM" class="culture icon_nav" data-title="Ажурный дом"
+						data-popup="infrastructure_popup-41"><img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-culture_v2.svg"
+							alt=""></span>
+					<span style="top: 30.25vw;left: 48.23vw;" id="text-DOM_AVIATOROV" class="culture icon_nav" data-title="Дом авиаторов"
+						data-popup="infrastructure_popup-42"><img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-culture_v2.svg"
+							alt=""></span>
+					<!-- <span style="top: 40.2vw;left: 49.2vw;" id="text-MOSKOVSKY_IPODROM" class="culture icon_nav" data-title="Московский Ипподром"
+						data-popup="infrastructure_popup-43"><img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-culture_v2.svg"
+							alt=""></span> -->
+					<span style="top: 38.5vw;left: 53.7vw;" id="text-ZOOPARK" class="culture icon_nav" data-title="Московский зоопарк"
+						data-popup="infrastructure_popup-44"><img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-culture_v2.svg"
+							alt=""></span>
+					<span style="top: 26.5vw;left: 51.6vw;" id="text-OTEL`_SOVETSKIY" class="culture icon_nav" data-title="Отель советский"
+						data-popup="infrastructure_popup-45"><img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-culture_v2.svg"
+							alt=""></span>
+					<!-- <span style="top: 47vw;left: 62vw;" id="text-PATRIARSHIE-PRUDY" class="culture icon_nav" data-title="Патриаршие пруды"
+						data-popup="infrastructure_popup-1"><img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-culture_v2.svg"
+							alt=""></span> -->
+					<span style="top: 43.9vw;left: 65.2vw;" id="text-KREML'" class="culture icon_nav" data-title="Кремль" data-popup="infrastructure_popup-2"><img
+							src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-culture_v2.svg" alt=""></span>
+					<span style="top: 29.6vw;left: 56.6vw;" id="text-BOL`SHEVIK" class="business icon_nav" data-title="Белая площадь"
+						data-popup="infrastructure_popup-48"><img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-busines_v2.svg"
+							alt=""></span>
+					<span style="top: 30.1vw;left: 51.36vw;" id="text-BELAYA-PLOSCHAD'" class="business icon_nav" data-title="Большевик"
+						data-popup="infrastructure_popup-49"><img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-busines_v2.svg"
+							alt=""></span>
+					<span style="top: 43.7vw;left: 43.4vw;" id="text-MOSKVA-SITI" class="business icon_nav" data-title="Москва-Сити"
+						data-popup="infrastructure_popup-21"><img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-busines_v2.svg"
+							alt=""></span>
+<!-- добавлен Аркус, нет всплывашки с текстом. нет попапа -->
+					<span style="top: 24.8vw;left: 44vw;display: block;" id="text-MOSKVA-SITI" class="business icon_nav" data-title="Аркус" 
+						data-popup="infrastructure_popup-21"><img src="/bitrix/templates/fnsh_intranet_v4/img/maps/icons/icon-i-busines_v2.svg" 
+						alt=""></span>
+<!-- добавлен Трехгорная мануфактура, нет всплывашки с текстом. нет попапа -->
+					
+					<span style="top: 41.7vw;left: 49vw;display: block;" id="text-MOSKVA-SITI" class="business icon_nav" data-title="Трехгорная мануфактура" 
+					data-popup="infrastructure_popup-21"><img src="/bitrix/templates/fnsh_intranet_v4/img/maps/icons/icon-i-busines_v2.svg" 
+					alt=""></span>
+<!-- добавлен Флакон, нет всплывашки с текстом. нет попапа -->
+					<span style="top: 15.9vw;left: 56.8vw;display: block;" id="text-MOSKVA-SITI" class="business icon_nav" data-title="Флакон" 
+					data-popup="infrastructure_popup-21"><img src="/bitrix/templates/fnsh_intranet_v4/img/maps/icons/icon-i-busines_v2.svg" 
+					alt=""></span>					
+
+					<!-- <span style="top: 35.4vw;left: 62.2vw;" id="text-DEPO" class="eat icon_nav" data-title="Депо" data-popup="infrastructure_popup-51"><img
+							src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-eat_v2.svg" alt=""></span> -->
+<!-- добавлены рестораны -->
+					<span style="top: 28.7vw;left: 59.4vw;" id="text-DEPO" class="eat icon_nav" data-title="Remy Kitchen Bakery" data-popup="infrastructure_popup-51"><img
+							src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-eat_v2.svg" alt=""></span>
+
+					<span style="top: 29.2vw;left: 56.9vw;" id="text-DEPO" class="eat icon_nav" data-title="Магадан" data-popup="infrastructure_popup-51"><img
+							src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-eat_v2.svg" alt=""></span>
+					
+					<span style="top: 31.7vw;left: 56.8vw;" id="text-DEPO" class="eat icon_nav" data-title="She" data-popup="infrastructure_popup-51"><img
+							src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-eat_v2.svg" alt=""></span>
+
+					<span style="top: 34.2vw;left: 56vw;" id="text-DEPO" class="eat icon_nav" data-title="Sage" data-popup="infrastructure_popup-51"><img
+							src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-eat_v2.svg" alt=""></span>
+
+					<span style="top: 34.6vw;left: 53.5vw;" id="text-DEPO" class="eat icon_nav" data-title="Рыба моя" data-popup="infrastructure_popup-51"><img
+							src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-eat_v2.svg" alt=""></span>
+
+					<span style="top: 36.6vw;left: 54.7vw;" id="text-DEPO" class="eat icon_nav" data-title="Eva" data-popup="infrastructure_popup-51"><img
+							src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-eat_v2.svg" alt=""></span>	
+							
+					<span style="top: 19.3vw;left: 42.8vw;" id="text-DEPO" class="eat icon_nav" data-title="Виноград не виноват" data-popup="infrastructure_popup-51"><img
+							src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-eat_v2.svg" alt=""></span>	
+
+					<span style="top: 23.55vw;left: 38.9vw;" id="text-DEPO" class="eat icon_nav" data-title="Bocconcino" data-popup="infrastructure_popup-51"><img
+							src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-eat_v2.svg" alt=""></span>
+
+					<span style="top: 24.25vw;left: 40.9vw;" id="text-DEPO" class="eat icon_nav" data-title="Amarena Albero" data-popup="infrastructure_popup-51"><img
+							src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-eat_v2.svg" alt=""></span>
+
+					<span style="top: 26.25vw;left: 42.25vw;" id="text-DEPO" class="eat icon_nav" data-title="Eiwa" data-popup="infrastructure_popup-51"><img
+							src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-eat_v2.svg" alt=""></span>
+
+					<span style="top: 27.75vw;left: 39.45vw;" id="text-DEPO" class="eat icon_nav" data-title="Luka" data-popup="infrastructure_popup-51"><img
+							src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-eat_v2.svg" alt=""></span>
+
+					<span style="top: 28.75vw;left: 41.95vw;" id="text-DEPO" class="eat icon_nav" data-title="Черетто" data-popup="infrastructure_popup-51"><img
+							src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-eat_v2.svg" alt=""></span>
+
+					<span style="top: 25.55vw;left: 44.5vw;" id="text-DEPO" class="eat icon_nav" data-title="Grand Урюк" data-popup="infrastructure_popup-51"><img
+							src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-eat_v2.svg" alt=""></span>
+<!-- конец добавлены рестораны -->	
+<!-- Stone Crab не видно. Иконка скрыта или глюк -->
+					<span style="top: 31.54vw;left: 53vw;" id="text-Stone_Crab" class="eat icon_nav" data-title="Stone Crab"
+						data-popup="infrastructure_popup-52"><img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/maps/icons/icon-i-eat_v2_v2.svg"
+							alt=""></span>
+					<span style="top: 26.9vw;left: 47.7vw;" id="text-PARIZ`en" class="eat icon_nav" data-title="Ресторан Паризьен"
+						data-popup="infrastructure_popup-53"><img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-eat_v2.svg"
+							alt=""></span>
+					<span style="top: 24.5vw;left: 49.85vw;" id="text-Oriental_Cocktail_bar" class="eat icon_nav" data-title="Oriental Cocktail bar"
+						data-popup="infrastructure_popup-54"><img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-eat_v2.svg"
+							alt=""></span>
+					<span style="top: 23.5vw;left: 44.9vw;" id="text-KOFEMANIA" class="eat icon_nav" data-title="Кофемания" data-popup="infrastructure_popup-55"><img
+							src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-eat_v2.svg" alt=""></span>
+					<span style="top: 24.2vw;left: 36.4vw;" id="text-Pharmacie_bar" class="eat icon_nav" data-title="Pharmacie bar"
+						data-popup="infrastructure_popup-56"><img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-eat_v2.svg"
+							alt=""></span>
+					<span style="top: 7vw;left: 32.3vw;" id="text-SHKOLA_90" class="edu icon_nav" data-title="Школа № 90" data-popup="infrastructure_popup-57"><img
+							src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-edu_v2.svg" alt=""></span>
+					<span style="top: 15.51vw;left: 38.65vw;" id="text-SHKOLA_1575" class="edu icon_nav" data-title="Школа № 1575"
+						data-popup="infrastructure_popup-58"><img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-edu_v2.svg"
+							alt=""></span>
+					<span style="top: 19.5vw;left: 36.18vw;" id="text-SHKOLA_1384_LEMANSKOGO" class="edu icon_nav" data-title="Школа имени Леманского № 1384"
+						data-popup="infrastructure_popup-59"><img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-edu_v2.svg"
+							alt=""></span>
+					<span style="top: 21.2vw;left: 38.4vw;" id="text-GBOU_SHKOLA_1287" class="edu icon_nav" data-title="ГБОУ Школа № 1287"
+						data-popup="infrastructure_popup-60"><img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-edu_v2.svg"
+							alt=""></span>
+					<span style="top: 33.4vw;left: 41vw;" id="text-SHKOLA_1288_TROIAN" class="edu icon_nav" data-title="Школа № 1288 Троян"
+						data-popup="infrastructure_popup-61"><img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-edu_v2.svg"
+							alt=""></span>
+					<span style="top: 22.2vw;left: 52.2vw;" id="text-SHKOLA_1601_LIYTIKOVA" class="edu icon_nav" data-title="Школа № 1601 им. Лютикова"
+						data-popup="infrastructure_popup-62"><img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-edu_v2.svg"
+							alt=""></span>
+					<!-- <span style="top: 30.1vw;left: 37.2vw;" id="text-SHKOLA_NA_TERRITORII_PRAYM_PARKA_I_DOU" class="edu icon_nav"
+						data-title="Школа на территории Прайм Парка" data-popup="infrastructure_popup-63"><img
+							src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-edu_v2.svg" alt=""></span> -->
+					<span style="top: 28.2vw;left: 40.15vw;" id="text-GIMNAZIYA_1409" class="edu icon_nav" data-title="Гимназия № 1409"
+						data-popup="infrastructure_popup-64"><img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-edu_v2.svg"
+							alt=""></span>
+					<span style="top: 23.5vw;left: 37.8vw;" id="text-MGPU_UNIVERSITETSKAYA_SHKOLA" class="edu icon_nav" data-title="МГПУ Университетская школа"
+						data-popup="infrastructure_popup-65"><img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-edu_v2.svg"
+							alt=""></span>
+					<span style="top: 16.8vw;left: 40.88vw;" id="text-SHKOLA_152" class="edu icon_nav" data-title="Школа № 152"
+						data-popup="infrastructure_popup-66"><img src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-edu_v2.svg"
+							alt=""></span>
+					<span style="top: 16.35vw;left: 37.05vw;" id="text-MADI" class="edu icon_nav" data-title="Институт МАДИ" data-popup="infrastructure_popup-67"><img
+							src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-edu_v2.svg" alt=""></span>
+					<span style="top: 36.8vw;left: 56.1vw;" id="text-MGIYA" class="edu icon_nav" data-title="МГЮА" data-popup="infrastructure_popup-68"><img
+							src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-edu_v2.svg" alt=""></span>
+					<!-- <span style="top: 16.2vw;left: 38.5vw;" id="text-INJINERNO-TEHNICHESKAYA_SHKOLA_IMENI_R" class="edu icon_nav"
+						data-title="Инженерно техническая школа им Поповича" data-popup="infrastructure_popup-69"><img
+							src="<?php echo SITE_TEMPLATE_PATH ?>/img/maps/icons/icon-i-edu_v2.svg" alt=""></span> -->
+				</div>
+				<div class="infrastructure_location-categories">
+					<h3 class="text_color-beige">Категории</h3>
+					<div class="categories_checkboxes">
+						<label for="business">Деловые кварталы
+							<input type="radio" name="category_radio" id="business">
+							<span class="checkbox"></span>
+						</label>
+						<label for="edu">Учебные учреждения
+							<input type="radio" name="category_radio" id="edu">
+							<span class="checkbox"></span>
+						</label>
+						<label for="eat">Кафе и рестораны
+							<input type="radio" name="category_radio" id="eat">
+							<span class="checkbox"></span>
+						</label>
+						</label><label for="park">Парки
+							<input type="radio" name="category_radio" id="park" checked="checked">
+							<span class="checkbox"></span>
+						</label>
+						<label for="culture">Достопримечательности
+							<input type="radio" name="category_radio" id="culture">
+							<span class="checkbox"></span>
+						</label>
+						<label for="sport">Спортивные объекты
+							<input type="radio" name="category_radio" id="sport">
+							<span class="checkbox"></span>
+						</label>
+						<label for="shop">Торговые центры
+							<input type="radio" name="category_radio" id="shop">
+							<span class="checkbox"></span>
+						</label>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="infrastructure_location-tooltip">
+			<div class="tooltip-container">
+				<div class="tooltip-container-inner">
+					<span></span>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
